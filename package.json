@@ -1,4 +1,10 @@
 {
+"homepage": "https://tibombasdiesel-prog.github.io/CronoMotor",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+  
   "name": "mocha-app",
   "private": true,
   "version": "0.0.0",
